@@ -147,7 +147,7 @@ export const Products = () => {
     }
 
     const miscellaneous = () => {
-        setFilters({...filters,category: 'Miscellaneous',})
+        setFilters({...filters,category: 'Other',})
         setIsActiveOne(false)
         setIsActiveTwo(false)
         setIsActiveThree(false)
@@ -304,7 +304,7 @@ export const Products = () => {
                                     null
                                 }
                             </li>
-                            <li onClick={miscellaneous}>+ Miscellaneous
+                            <li onClick={miscellaneous}>+ Other
                                 {isActiveFive?
                                     <div className='selectedUl'>
                                         {selectedProduct}
@@ -434,7 +434,7 @@ export const Products = () => {
                                     null
                                 }
                             </li>
-                            <li onClick={miscellaneous}>+ Miscellaneous
+                            <li onClick={miscellaneous}>+ Other
                                 {isActiveFive?
                                     <div className='selectedUl'>
                                         {selectedProduct}
