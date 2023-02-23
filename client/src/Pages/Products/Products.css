@@ -1,0 +1,1098 @@
+.products{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+
+.products .web{
+    display: block;
+}
+
+.products .mobile{
+    display: none;
+}
+
+.products .web .containerOne{
+    margin-top: -31rem;
+    margin-left: -35rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.products .web .image{
+    width: 200px;
+    height: 200px;
+}
+
+.products .web .containerTwo{
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -31rem;
+    padding-left: 20rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.products .web .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 83px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.products .web .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: -3rem;
+}
+
+.products .web .containerThreeHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+    margin-top: 5rem;
+}
+
+.products .web .containerCategory{
+    margin-left:5rem;
+    margin-right: 8rem;
+    margin-top: 3rem;
+}
+
+.products .web .categoryUl{
+    list-style-type: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #000000;
+    text-align: left;
+}
+
+.products .web .selectedH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding-left: 3rem;
+}
+
+.products .web .containerProduct{
+    width: 53.5rem;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+}
+
+.products .web .inner:hover{
+    transform: rotateY(180deg);
+}
+
+.products .web .inline{
+    display: inline-block;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.products .web .inlineT{
+    display: inline-block;
+}
+
+.products .web .containerFourH{
+    margin-top: -3.8rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    height: 60px;
+    width: 253px;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.products .web .productImage{
+    width: 253px;
+    height: 253px;
+}
+
+.products .web .flip-card {
+    background-color: transparent;
+    width: 253px;
+    height: 253px;
+}
+
+.products .web .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+}
+
+.products .web .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.products .web .flip-card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.products .web .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.products .web .flip-card-front {
+    color: black;
+}
+
+.products .web .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+    background-color: #492265;
+}
+
+.products .web .description{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+    width: 220px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.products .web .productImageDescription{
+    width: 253px;
+    height: 253px;
+    opacity: 0.2;
+}
+
+
+
+  
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.products .web{
+    display: none;
+}
+
+.products .mobile{
+    display: block;
+}
+
+.products .mobile .containerOne{
+    margin-top: -26rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.products .mobile .image{
+    width: 180px;
+    height: 180px;
+}
+
+.products .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16rem;
+    position:absolute;
+    left:0;
+    right:0
+}
+
+.products .mobile .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 83px;
+    color: #FFFFFF;
+}
+
+.products .mobile .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-top: -2rem;
+}
+
+.products .mobile .containerThree{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .containerThreeHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.products .mobile .containerCategory{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .containerCategoryHOne{
+    opacity: 0.5;
+    margin-left: -1rem;
+    margin-right: 7rem;
+}
+
+.products .mobile .underline{
+    width: 18rem;
+    margin-top: -1rem;
+}
+
+
+
+.products .mobile .categoryUl{
+    list-style-type: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 39px;
+    color: #000000;
+    text-align: left;
+}
+
+.products .mobile .containerProduct{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+}
+
+.products .mobile .inline{
+    display: inline-block;
+    padding: 0.5rem;
+    padding-top: 2rem;
+}
+
+.products .mobile .containerFourH{
+    margin-top: -3rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 31px;
+    height: 55px;
+    padding-top: 0.3rem;
+    text-align: center;
+}
+
+.products .mobile .selectedH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding-left: 2rem;
+}
+
+.products .mobile .productImage{
+    width: 150px;
+    height: 150px;
+}
+
+.products .mobile .containerUl{
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .flip-card {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+}
+
+.products .mobile .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+}
+
+.products .mobile .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.products .mobile .flip-card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.products .mobile .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.products .mobile .flip-card-front {
+    color: black;
+}
+
+.products .mobile .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+    background-color: #492265;
+}
+
+.products .mobile .description{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 26px;
+    color: white;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -9rem;
+    padding: 0.3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.products .mobile .productImageDescription{
+    width: 150px;
+    height: 150px;
+    opacity: 0.2;
+}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.products .web{
+    display: none;
+}
+
+.products .mobile{
+    display: block;
+}
+
+.products .mobile .containerOne{
+    margin-top: -27rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.products .mobile .image{
+    width: 200px;
+    height: 200px;
+}
+
+.products .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17rem;
+    position:absolute;
+    left:0;
+    right:0
+}
+
+.products .mobile .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 83px;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+.products .mobile .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-top: -2rem;
+}
+
+.products .mobile .containerThree{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .containerThreeHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.products .mobile .containerCategory{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .containerCategoryHOne{
+    opacity: 0.5;
+    margin-left: -1rem;
+    margin-right: 7rem;
+}
+
+.products .mobile .underline{
+    width: 20rem;
+    margin-top: -1rem;
+}
+
+
+.products .mobile .categoryUl{
+    list-style-type: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+    color: #000000;
+    text-align: left;
+}
+
+.products .mobile .containerProduct{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.products .mobile .inline{
+    display: inline-block;
+    padding: 0.5rem;
+    padding-top: 2rem;
+}
+
+.products .mobile .containerFourH{
+    margin-top: -3rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 31px;
+    height: 40px;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.products .mobile .productImage{
+    width: 180px;
+    height: 180px;
+}
+
+.products .mobile .containerUl{
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .selectedH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding-left: 2rem;
+}
+
+.products .mobile .productImage{
+    width: 180px;
+    height: 180px;
+}
+
+.products .mobile .containerUl{
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .flip-card {
+    background-color: transparent;
+    width: 180px;
+    height: 180px;
+}
+
+.products .mobile .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+}
+
+.products .mobile .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.products .mobile .flip-card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.products .mobile .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.products .mobile .flip-card-front {
+    color: black;
+}
+
+.products .mobile .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+    background-color: #492265;
+}
+
+.products .mobile .description{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    width: 160px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -11rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.products .mobile .productImageDescription{
+    width: 180px;
+    height: 180px;
+    opacity: 0.2;
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1024px)  {
+.products .web{
+    display: none;
+}
+
+.products .mobile{
+    display: block;
+}
+
+.products .mobile .containerOne{
+    margin-top: -27rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.products .mobile .image{
+    width: 230px;
+    height: 230px;
+}
+
+.products .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15rem;
+    position:absolute;
+    left:0;
+    right:0
+}
+
+.products .mobile .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 83px;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+.products .mobile .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-top: -2rem;
+}
+
+.products .mobile .containerThree{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .containerThreeHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.products .mobile .containerCategory{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .containerCategoryHOne{
+    opacity: 0.5;
+    margin-left: -1rem;
+    margin-right: 7rem;
+}
+
+.products .mobile .underline{
+    width: 20rem;
+    margin-top: -1rem;
+}
+
+.products .mobile .categoryUl{
+    list-style-type: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+    color: #000000;
+    text-align: left;
+}
+
+.products .mobile .containerProduct{
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.products .mobile .inline{
+    display: inline-block;
+    padding: 0.5rem;
+    padding-top: 2rem;
+}
+
+.products .mobile .containerFourH{
+    margin-top: -3rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 31px;
+    height: 40px;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.products .mobile .productImage{
+    width: 218px;
+    height: 218px;
+}
+
+.products .mobile .containerUl{
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .selectedH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding-left: 2rem;
+}
+
+.products .mobile .productImage{
+    width: 253px;
+    height: 253px;
+}
+
+.products .mobile .containerUl{
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products .mobile .flip-card {
+    background-color: transparent;
+    width: 253px;
+    height: 253px;
+}
+
+.products .mobile .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.products .mobile .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.products .mobile .flip-card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.products .mobile .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.products .mobile .flip-card-front {
+    color: black;
+}
+
+.products .mobile .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+    background-color: #492265;
+}
+
+.products .mobile .description{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+    width: 220px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.products .mobile .productImageDescription{
+    width: 253px;
+    height: 253px;
+    opacity: 0.2;
+}
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px)  {
+.products{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+
+.products .web{
+    display: block;
+}
+
+.products .mobile{
+    display: none;
+}
+
+.products .web .containerOne{
+    margin-top: -31rem;
+    margin-left: -35rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.products .web .image{
+    width: 200px;
+    height: 200px;
+}
+
+.products .web .containerTwo{
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -31rem;
+    padding-left: 20rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.products .web .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 83px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.products .web .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: -3rem;
+}
+
+.products .web .containerThreeHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+    margin-top: 5rem;
+}
+
+.products .web .containerCategory{
+    margin-left:5rem;
+    margin-right: 8rem;
+    margin-top: 3rem;
+}
+
+.products .web .categoryUl{
+    list-style-type: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 39px;
+    color: #000000;
+    text-align: left;
+}
+
+.products .web .selectedH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding-left: 3rem;
+}
+
+.products .web .containerProduct{
+    width: 40rem;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+}
+
+.products .web .inner:hover{
+    transform: rotateY(180deg);
+}
+
+.products .web .inline{
+    display: inline-block;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.products .web .inlineT{
+    display: inline-block;
+}
+
+.products .web .containerFourH{
+    margin-top: -3.8rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 31px;
+    height: 60px;
+    width: 150px;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.products .web .productImage{
+    width: 150px;
+    height: 150px;
+}
+
+.products .web .flip-card {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+}
+
+.products .web .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+}
+
+.products .web .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.products .web .flip-card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.products .web .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.products .web .flip-card-front {
+    color: black;
+}
+
+.products .web .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+    background-color: #492265;
+}
+
+.products .web .description{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: white;
+    width: 140px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -9.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.products .web .productImageDescription{
+    width: 150px;
+    height: 150px;
+    opacity: 0.2;
+}
+}

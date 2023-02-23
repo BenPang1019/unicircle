@@ -1,0 +1,265 @@
+.navbarN{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+
+.navbarN .web{
+    display: block;
+    background-image: url(../../Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
+.navbarN .mobile{
+    display: none;
+}
+
+.navbarN .web .layerN{
+    background-color: rgba(73, 34, 101, 0.8);
+    height: 600px;
+    margin-top: -1rem;
+}
+
+.navbarN .web ul{
+    list-style-type: none;
+    padding-top: 3rem;
+}
+
+.navbarN .web .firstListItemsN{
+    margin-left: 2.1rem;
+}
+
+.navbarN .web .listItemsN{
+    display: inline-block;
+    padding-right: 50px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.navbarN .web .listItemsLinkN{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.navbarN .web{
+    display: none;
+}
+
+.navbarN .mobile{
+    display: block;
+    background-image: url(../../Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 450%;
+    position: relative;
+    height: 500px;
+    background-position: center;
+}
+
+.navbarN .mobile .layerN{
+    background-color: rgba(73, 34, 101, 0.8);
+    height: 600px;
+    margin-top: -1rem;
+}
+
+.navbarN .mobile ul{
+    list-style-type: none;
+    padding-top: 3rem;
+}
+
+.navbarN .mobile .firstListItemsN{
+    margin-left: -2rem;
+}
+
+.navbarN .mobile .listItemsN{
+    display: inline-block;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.navbarN .mobile .listItemsLinkN{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.navbarN .web{
+    display: none;
+}
+
+.navbarN .mobile{
+    display: block;
+    background-image: url(../../Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 450%;
+    position: relative;
+    height: 500px;
+    background-position: center;
+}
+
+
+
+.navbarN .mobile .layerN{
+    background-color: rgba(73, 34, 101, 0.8);
+    height: 600px;
+    margin-top: -1rem;
+}
+
+.navbarN .mobile ul{
+    list-style-type: none;
+    padding-top: 2.5rem;
+
+}
+
+.navbarN .mobile .firstListItemsN{
+    margin-left: -2rem;
+}
+
+.navbarN .mobile .listItemsN{
+    display: inline-block;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.5rem;
+}
+
+.navbarN .mobile .listItemsLinkN{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline;
+    padding: 1px;
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1024px)  {
+.navbarN .web{
+    display: none;
+}
+
+.navbarN .mobile{
+    display: block;
+    background-image: url(../../Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 450%;
+    position: relative;
+    height: 500px;
+    background-position: center;
+}
+
+.navbarN .mobile .layerN{
+    background-color: rgba(73, 34, 101, 0.8);
+    height: 600px;
+    margin-top: -1rem;
+}
+
+.navbarN .mobile ul{
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+.navbarN .mobile .firstListItemsN{
+    margin-left: -2rem;
+}
+
+.navbarN .mobile .listItemsN{
+    display: inline-block;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2rem;
+}
+
+.navbarN .mobile .listItemsLinkN{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline;
+    padding: 1px;
+}
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1440px)  {
+.navbarN{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+
+.navbarN .web{
+    display: block;
+    background-image: url(../../Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
+.navbarN .mobile{
+    display: none;
+}
+
+.navbarN .web .layerN{
+    background-color: rgba(73, 34, 101, 0.8);
+    height: 530px;
+    margin-top: -1rem;
+}
+
+.navbarN .web ul{
+    list-style-type: none;
+    padding-top: 3rem;
+}
+
+.navbarN .web .firstListItemsN{
+    margin-left: 2.1rem;
+}
+
+.navbarN .web .listItemsN{
+    display: inline-block;
+    padding-right: 50px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.navbarN .web .listItemsLinkN{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+}
+
+}

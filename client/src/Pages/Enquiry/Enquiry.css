@@ -1,0 +1,679 @@
+.enquiry{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+
+.enquiry .web{
+    display: block;
+}
+
+.enquiry .mobile{
+    display: none;
+}
+
+.enquiry .web .containerOne{
+    margin-top: -31rem;
+    margin-left: -35rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.enquiry .web .image{
+    width: 200px;
+    height: 200px;
+}
+
+.enquiry .web .containerTwo{
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -31rem;
+    padding-left: 20rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.enquiry .web .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 83px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.enquiry .web .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: -3rem;
+}
+
+.enquiry .web .containerThree{
+    margin-top: 5rem;
+}
+
+.enquiry .web .containerThreeDetails{
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding-right: 20rem;
+    text-align: left;
+}
+
+.enquiry .web .containerThreeTable{
+    width: 1200px;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20rem;
+    margin-top: 4rem;
+}
+
+.enquiry .web .containerThreeTableLeft{
+    font-weight: bold;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+    text-align: right;
+    vertical-align: top;
+}
+
+.enquiry .web .containerThreeTableRight{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+    text-align: left;
+    padding-left: 2rem;
+    vertical-align: top;
+    position: relative;
+}
+
+.enquiry .web .containerThreeMap{
+    margin-left: 40rem;
+    margin-top: -13rem;
+    margin-bottom: 7rem;
+}
+
+.enquiry .web .containerFour{
+    margin-bottom: 5rem;
+}
+
+.enquiry .web .containerFourEnquiry{
+    width: 20rem;
+    padding-right: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.enquiry .web .containerFourEnquiryH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.enquiry .web .containerFourEnquiryP{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: right;
+    color: #000000;
+}
+
+.enquiry .web .containerFourTable{
+    width: 1200px;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35rem;
+    margin-top: -15rem;
+}
+
+.enquiry .web .containerFourTableLeft{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    color: #1E1E1E;
+    vertical-align: top;
+    text-align: left;
+    height: 55px;
+    padding-top: 1rem;
+}
+
+.enquiry .web .containerFourTableRight{
+    vertical-align: top;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.enquiry .web .tableInput{
+    width: 426px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E1E1E;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.enquiry .web{
+    display: none;
+}
+
+.enquiry .mobile{
+    display: block;
+}
+
+.enquiry .mobile .containerOne{
+    margin-top: -26rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.enquiry .mobile .image{
+    width: 180px;
+    height: 180px;
+}
+
+.enquiry .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16rem;
+    position:absolute;
+    left:0;
+    right:0
+}
+
+.enquiry .mobile .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 83px;
+    color: #FFFFFF;
+}
+
+.enquiry .mobile .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: -2rem;
+}
+
+.enquiry .mobile .containerThree{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.enquiry .mobile .containerThreeHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.enquiry .mobile .containerThreeTable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    width: 300px;
+}
+
+.enquiry .mobile .containerThreeTableLeft{
+    font-weight: bold;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 31px;
+    color: #000000;
+    text-align: right;
+    vertical-align: top;
+}
+
+.enquiry .mobile .containerThreeTableRight{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 31px;
+    color: #000000;
+    text-align: left;
+    padding-left: 2rem;
+    vertical-align: top;
+    position: relative;
+}
+
+.enquiry .mobile .containerThreeMap{
+    margin-top: 3rem;
+}
+
+.enquiry .mobile .containerFour{
+    margin-top: 4rem;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.enquiry .mobile .containerFourEnquiry{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.enquiry .mobile .containerFourEnquiryH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.enquiry .mobile .containerFourEnquiryP{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+.enquiry .mobile .containerFourTable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 300px;
+}
+
+.enquiry .mobile .containerFourTableLeft{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    color: #1E1E1E;
+    vertical-align: top;
+    text-align: left;
+    height: 55px;
+}
+
+.enquiry .mobile .containerFourTableRight{
+    vertical-align: top;
+    padding-left: 1rem;
+}
+
+.enquiry .mobile .tableInput{
+    width: 95%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 31px;
+    color: #1E1E1E;
+}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.enquiry .web{
+    display: none;
+}
+
+.enquiry .mobile{
+    display: block;
+}
+
+.enquiry .mobile .containerOne{
+    margin-top: -27rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.enquiry .mobile .image{
+    width: 200px;
+    height: 200px;
+}
+
+.enquiry .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17rem;
+    position:absolute;
+    left:0;
+    right:0
+}
+
+.enquiry .mobile .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 83px;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+.enquiry .mobile .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: -3rem;
+}
+
+.enquiry .mobile .containerThree{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.enquiry .mobile .containerThreeTable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.enquiry .mobile .containerThreeTableLeft{
+    font-weight: bold;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #000000;
+    text-align: right;
+    vertical-align: top;
+}
+
+.enquiry .mobile .containerThreeTableRight{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #000000;
+    text-align: left;
+    padding-left: 2rem;
+    vertical-align: top;
+    position: relative;
+}
+
+.enquiry .mobile .containerThreeMap{
+    margin-top: 3rem;
+}
+
+.enquiry .mobile .containerFour{
+    margin-top: 4rem;
+}
+
+.enquiry .mobile .containerFourEnquiry{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    text-align: center;
+}
+
+.enquiry .mobile .containerFourEnquiryH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.enquiry .mobile .containerFourEnquiryP{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+.enquiry .mobile .containerFourTable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    width: 350px;
+    margin-bottom: 3rem;
+}
+
+.enquiry .mobile .containerFourTableLeft{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    color: #1E1E1E;
+    vertical-align: top;
+    text-align: left;
+    height: 55px;
+}
+
+.enquiry .mobile .containerFourTableRight{
+    vertical-align: top;
+    padding-left: 1rem;
+}
+
+.enquiry .mobile .tableInput{
+    width: 95%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 31px;
+    color: #1E1E1E;
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1024px)  {
+.enquiry .web{
+    display: none;
+}
+
+.enquiry .mobile{
+    display: block;
+}
+
+.enquiry .mobile .containerOne{
+    margin-top: -27rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.enquiry .mobile .image{
+    width: 230px;
+    height: 230px;
+}
+
+.enquiry .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15rem;
+    position:absolute;
+    left:0;
+    right:0
+}
+
+.enquiry .mobile .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 83px;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+.enquiry .mobile .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: -3rem;
+}
+
+.enquiry .mobile .containerThree{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.enquiry .mobile .containerThreeTable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.enquiry .mobile .containerThreeTableLeft{
+    font-weight: bold;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    text-align: right;
+    vertical-align: top;
+}
+
+.enquiry .mobile .containerThreeTableRight{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-align: left;
+    padding-left: 2rem;
+    vertical-align: top;
+    position: relative;
+}
+
+.enquiry .mobile .containerThreeMap{
+    margin-top: 3rem;
+}
+
+.enquiry .mobile .containerFour{
+    margin-top: 4rem;
+}
+
+.enquiry .mobile .containerFourEnquiry{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.enquiry .mobile .containerFourEnquiryH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.enquiry .mobile .containerFourEnquiryP{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+.enquiry .mobile .containerFourTable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.enquiry .mobile .containerFourTableLeft{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: #1E1E1E;
+    vertical-align: top;
+    text-align: left;
+    height: 55px;
+}
+
+.enquiry .mobile .containerFourTableRight{
+    vertical-align: top;
+    padding-left: 1rem;
+}
+
+.enquiry .mobile .tableInput{
+    width: 95%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    color: #1E1E1E;
+}
+}

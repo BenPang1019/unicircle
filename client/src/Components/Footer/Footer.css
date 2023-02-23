@@ -1,0 +1,655 @@
+.footerN{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    
+    background-color: #492265;
+}
+
+.footerN .web{
+    display: block;
+}
+
+.footerN .mobile{
+    display: none;
+}
+
+.footerN .web .imageOneN{
+    width: 151px;
+    height: 150px;
+}
+
+.footerN .web .containerOneN{
+    vertical-align: top;
+    text-align: left;
+    
+}
+
+.footerN .web .containerOneHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerOneHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerTwoN{
+    vertical-align: top;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+.footerN .web .containerTwoHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerTwoHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerTwoHTwoNA{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -1rem;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerThreeN{
+    vertical-align: top;
+    text-align: left;
+    
+}
+
+.footerN .web .containerThreeHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerThreeHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footerN .web .copyright{
+    background-color: #280045;
+    height: 60px;
+    margin-top: 0rem;
+}
+
+.footerN .web .copyrightH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerN .inlineN{
+    display: inline-block;
+    padding: 2rem 11rem 0rem 11rem;
+}
+
+.footerN .inlineI{
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.footerN .center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.footerN .web{
+    display: none;
+}
+
+.footerN .mobile{
+    display: block;
+}
+
+.footerN .mobile .imageOneN{
+    width: 151px;
+    height: 150px;
+}
+
+.footerN .mobile .containerOneN{
+    margin-top: 2rem;
+    padding-left: 1rem;
+
+}
+
+.footerN .mobile .containerOneHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerOneHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerTwoN{
+    margin-top: 2rem;
+    padding-left: 1rem;
+    vertical-align: top;
+}
+
+
+.footerN .mobile .containerTwoHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerFixed{
+    text-align: center;
+    margin-top: 2.5rem;
+    width: 380px;
+}
+
+.footerN .mobile .containerTwoHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerThreeN{
+    padding-left: 1rem;
+}
+
+.footerN .mobile .containerThreeHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerThreeHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: -0.5rem;
+}
+
+.footerN .mobile .copyright{
+    background-color: #280045;
+    height: 120px;
+    margin-top: 3rem;
+}
+
+.footerN .mobile .copyrightH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerN .mobile .inlineS{
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+
+
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.footerN .web{
+    display: none;
+}
+
+.footerN .mobile{
+    display: block;
+}
+
+.footerN .mobile .imageOneN{
+    width: 181px;
+    height: 180px;
+}
+
+.footerN .mobile .containerOneN{
+    margin-top: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    margin-right: 3rem;
+}
+
+.footerN .mobile .containerOneHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerOneHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerTwoN{
+    margin-top: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    vertical-align: top;
+}
+
+
+.footerN .mobile .containerTwoHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerFixed{
+    text-align: left;
+    width: 480px;
+    margin-top: 2.5rem;
+}
+
+.footerN .mobile .containerTwoHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerThreeN{
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.footerN .mobile .containerThreeHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerThreeHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: -0.5rem;
+}
+
+.footerN .mobile .copyright{
+    background-color: #280045;
+    height: 100px;
+    margin-top: 3rem;
+}
+
+.footerN .mobile .copyrightH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerN .mobile .inlineS{
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+
+.footerN .mobile .containerOneHOneNN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    color: #FFFFFF;
+    vertical-align: top;
+    margin-top: 2rem;
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1024px)  {
+.footerN .web{
+    display: none;
+}
+
+.footerN .mobile{
+    display: block;
+}
+
+.footerN .mobile .imageOneN{
+    width: 200px;
+    height: 200px;
+}
+
+.footerN .mobile .containerOneN{
+    margin-top: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    margin-right: 4rem;
+}
+
+.footerN .mobile .containerOneHOneNN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    color: #FFFFFF;
+    vertical-align: top;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.footerN .mobile .containerOneHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerOneHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerTwoN{
+    margin-top: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    vertical-align: top;
+}
+
+
+.footerN .mobile .containerTwoHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerFixed{
+    text-align: left;
+    width: 580px;
+    margin-top: 2.5rem;
+}
+
+.footerN .mobile .containerTwoHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerThreeN{
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.footerN .mobile .containerThreeHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .mobile .containerThreeHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: -0.5rem;
+}
+
+.footerN .mobile .copyright{
+    background-color: #280045;
+    height: 100px;
+    margin-top: 3rem;
+}
+
+.footerN .mobile .copyrightH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerN .mobile .inlineS{
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px)  {
+.footerN{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    
+    background-color: #492265;
+}
+
+.footerN .web{
+    display: block;
+}
+
+.footerN .mobile{
+    display: none;
+}
+
+.footerN .web .imageOneN{
+    width: 130px;
+    height: 130px;
+}
+
+.footerN .web .containerOneN{
+    vertical-align: top;
+    text-align: left;
+}
+
+.footerN .web .containerOneHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerOneHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerTwoN{
+    vertical-align: top;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.footerN .web .containerTwoHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerTwoHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerTwoHTwoNA{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: -1rem;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerThreeN{
+    vertical-align: top;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.footerN .web .containerThreeHOneN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footerN .web .containerThreeHTwoN{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footerN .web .copyright{
+    background-color: #280045;
+    height: 60px;
+    margin-top: 0rem;
+}
+
+.footerN .web .copyrightH{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerN .inlineN{
+    display: inline-block;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.footerN .inlineI{
+    display: inline-block;
+    padding-left: 1rem;
+}
+}

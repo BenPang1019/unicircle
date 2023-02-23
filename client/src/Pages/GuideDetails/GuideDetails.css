@@ -1,0 +1,399 @@
+.guideDetails{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+
+.guideDetails .web{
+    display: block;
+}
+
+.guideDetails .mobile{
+    display: none;
+}
+
+.guideDetails .web .containerOne{
+    margin-top: -25rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80rem;
+}
+
+.guideDetails .web .containerOneHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 80rem;
+    height: 10rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.guideDetails .web .containerOneHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 50px;
+    color: #FFFFFF;
+    width: 80rem;
+    height: 5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.guideDetails .web .containerOneHThree{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.guideDetails .web .containerTwo{
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10rem;
+}
+
+.guideDetails .web .newsImage{
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.guideDetails .web  .containerThree{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.guideDetails .web .description{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .web .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.guideDetails .web .grow:hover { 
+    transform: scale(1.1); 
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.guideDetails .web{
+    display: none;
+}
+
+.guideDetails .mobile{
+    display: block;
+}
+
+.guideDetails .mobile .containerOne{
+    margin-top: -22rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.guideDetails .mobile .containerOneHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+    width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .mobile .containerOneHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 50px;
+    color: #FFFFFF;
+    width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .mobile .containerOneHThree{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.guideDetails .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10rem;
+}
+
+.guideDetails .mobile .newsImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.guideDetails .mobile  .containerThree{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.guideDetails .mobile .description{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .mobile .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.guideDetails .mobile .grow:hover { 
+    transform: scale(1.1); 
+}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.guideDetails .web{
+    display: none;
+}
+
+.guideDetails .mobile{
+    display: block;
+}
+
+.guideDetails .mobile .containerOne{
+    margin-top: -23rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+}
+
+.guideDetails .mobile .containerOneHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 50px;
+    color: #FFFFFF;
+    width: 380px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .mobile .containerOneHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+    width: 380px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .mobile .containerOneHThree{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.guideDetails .mobile .containerTwo{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10rem;
+}
+
+.guideDetails .mobile .newsImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.guideDetails .mobile  .containerThree{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.guideDetails .mobile .description{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .mobile .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.guideDetails .mobile .grow:hover { 
+    transform: scale(1.1); 
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1024px)  {
+.guideDetails .web{
+    display: none;
+}
+
+.guideDetails .mobile{
+    display: block;
+}
+
+.guideDetails .mobile .containerOne{
+    margin-top: -20rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
+}
+
+.guideDetails .mobile .containerOneHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 50px;
+    color: #FFFFFF;
+    width: 750px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .mobile .containerOneHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 50px;
+    color: #FFFFFF;
+    width: 750px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .mobile .containerOneHThree{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.guideDetails .mobile .containerTwo{
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10rem;
+}
+
+.guideDetails .mobile .newsImage{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.guideDetails .mobile  .containerThree{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.guideDetails .mobile .description{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guideDetails .mobile .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.guideDetails .mobile .grow:hover { 
+    transform: scale(1.1); 
+}
+}

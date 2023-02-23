@@ -1,0 +1,463 @@
+.guide{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+
+.guide .web{
+    display: block;
+}
+
+.guide .mobile{
+    display: none;
+}
+
+.guide .web .containerOne{
+    margin-top: -31rem;
+    margin-left: -35rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.guide .web .image{
+    width: 200px;
+    height: 200px;
+}
+
+.guide .web .containerTwo{
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -31rem;
+    padding-left: 20rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.guide .web .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 83px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.guide .web .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: -3rem;
+}
+
+.guide .web .containerThree{
+    margin-top: 5rem;
+    width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15rem;
+    padding-top: 5rem;
+    
+}
+
+.guide .web .containerThreeH{
+    margin-top: -5rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    height: 60px;
+    width: 330px;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.guide .web .containerThreeHTwo{
+    margin-top: -0.9rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    height: 30px;
+    width: 330px;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.guide .web .newsImage{
+    width: 340px;
+    height: 253px;
+    border-radius: 10px;
+}
+
+.guide .web .inline{
+    display: inline-block;
+    padding: 15px;
+}
+
+.guide .web .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.guide .web .grow:hover { 
+    transform: scale(1.1); 
+}
+
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.guide .web{
+    display: none;
+}
+
+.guide .mobile{
+    display: block;
+}
+
+.guide .mobile .containerOne{
+    margin-top: -26rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.guide .mobile .image{
+    width: 180px;
+    height: 180px;
+}
+
+.guide .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16rem;
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+.guide .mobile .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 83px;
+    color: #FFFFFF;
+}
+
+.guide .mobile .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: -2rem;
+}
+
+.guide .mobile .containerThree{
+    margin-top: 3rem;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+.guide .mobile .containerThreeH{
+    margin-top: -3rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    height: 48px;
+    width: 140px;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.guide .mobile .containerThreeHTwo{
+    margin-top: -0.6rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    height: 25px;
+    width: 140px;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.guide .mobile .newsImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.guide .mobile .inline{
+    display: inline-block;
+    padding: 5px;
+}
+
+.guide .mobile .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.guide .mobile .grow:hover { 
+    transform: scale(1.1); 
+}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.guide .web{
+    display: none;
+}
+
+.guide .mobile{
+    display: block;
+}
+
+.guide .mobile .containerOne{
+    margin-top: -27rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.guide .mobile .image{
+    width: 200px;
+    height: 200px;
+}
+
+.guide .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17rem;
+    position:absolute;
+    left:0;
+    right:0
+}
+
+.guide .mobile .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 83px;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+.guide .mobile .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: -3rem;
+}
+
+.guide .mobile .containerThree{
+    margin-top: 5rem;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.guide .mobile .containerThreeH{
+    margin-top: -3rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    height: 62px;
+    width: 170px;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.guide .mobile .containerThreeHTwo{
+    margin-top: -0.7rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 10px;
+    height: 15px;
+    width: 170px;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.guide .mobile .newsImage{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.guide .mobile .inline{
+    display: inline-block;
+    padding: 5px;
+}
+
+.guide .mobile .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.guide .mobile .grow:hover { 
+    transform: scale(1.1); 
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1024px)  {
+.guide .web{
+    display: none;
+}
+
+.guide .mobile{
+    display: block;
+}
+
+.guide .mobile .containerOne{
+    margin-top: -27rem;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.guide .mobile .image{
+    width: 230px;
+    height: 230px;
+}
+
+.guide .mobile .containerTwo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15rem;
+    position:absolute;
+    left:0;
+    right:0
+}
+
+.guide .mobile .containerTwoHOne{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 83px;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+.guide .mobile .containerTwoHTwo{
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: -3rem;
+}
+
+.guide .mobile .containerThree{
+    margin-top: 5rem;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.guide .mobile .containerThreeH{
+    margin-top: -5rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    height: 65px;
+    width: 210px;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.guide .mobile .containerThreeHTwo{
+    margin-top: -0.9rem;
+    position: relative;
+    color: white;
+    background-color: #492265;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    height: 30px;
+    width: 210px;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.guide .mobile .newsImage{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.guide .mobile .inline{
+    display: inline-block;
+    padding: 5px;
+}
+
+.guide .mobile .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.guide .mobile .grow:hover { 
+    transform: scale(1.1); 
+}
+}
