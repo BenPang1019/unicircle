@@ -38,7 +38,7 @@ export const ProductDetails = () => {
 
                     <div className='containerTable inline'>
                         <h1 className='containerTableHOne'>{location.state.data.productName}</h1>
-                        <h1 className='containerTableHTwo'>{location.state.data.subTitle}</h1>
+                        <h1 className='containerTableHTwo'>{location.state.data.standards}</h1>
                         <h3 className='containerTableHThree'>Nominal Dimension</h3>
                         <table className='table'>
                             <tr>
@@ -169,10 +169,6 @@ export const ProductDetails = () => {
                             <td className='tableTwoRight'>{location.state.data.materials}</td>
                         </tr>
                         <tr>
-                            <td className='tableTwoLeft'>Standards</td>
-                            <td className='tableTwoRight'>{location.state.data.standards}</td>
-                        </tr>
-                        <tr>
                             <td className='tableTwoLeft'>Finishes</td>
                             <td className='tableTwoRight'>{location.state.data.finisher}</td>
                         </tr>
@@ -194,7 +190,7 @@ export const ProductDetails = () => {
 
                     <div className='containerTable'>
                         <h1 className='containerTableHOne'>{location.state.data.productName}</h1>
-                        <h1 className='containerTableHTwo'>{location.state.data.subTitle}</h1>
+                        <h1 className='containerTableHTwo'>{location.state.data.standards}</h1>
                         <h3 className='containerTableHThree'>Nominal Dimension</h3>
                         <table className='table'>
                             <tr>
@@ -270,12 +266,6 @@ export const ProductDetails = () => {
                         </tr>
                         <tr>
                             <td className='tableTwoRight'>{location.state.data.materials}</td>
-                        </tr>
-                        <tr>
-                            <td className='tableTwoLeft'>Standards</td>
-                        </tr>
-                        <tr>
-                            <td className='tableTwoRight'>{location.state.data.standards}</td>
                         </tr>
                         <tr>
                             <td className='tableTwoLeft'>Finishes</td>
