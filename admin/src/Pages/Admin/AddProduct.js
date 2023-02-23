@@ -28,7 +28,6 @@ export const AddProduct = () => {
     const [product, setProduct] = useState({
         productName:"",
         category:"",
-        subTitle:"",
         productImageOne:"",
         productImageTwo:"",
         productImageThree:"",
@@ -365,9 +364,6 @@ export const AddProduct = () => {
                             <br/><br/>
                         </div>
                         
-                        <h1 className="EDh1Text">Sub Title</h1>
-                        <input type="text" placeholder="SubTitle..." className="EDinput" onChange={handleChange} name="subTitle"/>
-                        <h1 className="EDh1Text">Spec</h1>
                         <table className="">
                             <tr className="">
                                 <td></td>

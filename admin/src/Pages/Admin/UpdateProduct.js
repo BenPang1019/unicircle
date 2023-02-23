@@ -19,7 +19,6 @@ export const UpdateProduct = () => {
   const [updateProduct, setUpdateProduct] = useState({
     productName:"",
     category:"",
-    subTitle:"",
     productImageOne:"",
     productImageTwo:"",
     productImageThree:"",
@@ -212,9 +211,6 @@ export const UpdateProduct = () => {
     }
     if(updateProduct.description==""){
       setUpdateProduct(updateProduct.description=productdata.description)
-    }
-    if(updateProduct.subTitle==""){
-      setUpdateProduct(updateProduct.subTitle=productdata.subTitle)
     }
     if(updateProduct.materials==""){
       setUpdateProduct(updateProduct.materials=productdata.materials)
@@ -605,8 +601,7 @@ export const UpdateProduct = () => {
                             </label>
                             <br/><br/>
                         </div>
-                        <h1 className="EDh1Text">Sub Title</h1>
-                        <input type="text" placeholder="SubTitle..." className="EDinput" onChange={handleChange} name="subTitle" defaultValue={productdata.subTitle}/>
+                       
                         <h1 className="EDh1Text">Spec</h1>
                         <table className="">
                             <tr className="">

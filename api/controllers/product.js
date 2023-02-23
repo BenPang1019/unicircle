@@ -21,12 +21,11 @@ export const getProduct = (req, res) => {
 };
 
 export const addProduct = (req, res) => {
-    const q = "INSERT INTO unicircleproduct (`productName`, `category`, `subTitle`, `productImageOne`, `productImageTwo`, `productImageThree`, `productImageFour`, `materials`, `standards`, `finisher`, `diameterOne`, `lengthOne`, `dsOne`, `hlOne`, `diameterTwo`, `lengthTwo`, `dsTwo`, `hlTwo`, `diameterThree`, `lengthThree`, `dsThree`, `hlThree`, `diameterFour`, `lengthFour`, `dsFour`, `hlFour`, `diameterFive`, `lengthFive`, `dsFive`, `hlFive`, `diameterSix`, `lengthSix`, `dsSix`, `hlSix`, `description`) VALUES (?)";
+    const q = "INSERT INTO unicircleproduct (`productName`, `category`, `productImageOne`, `productImageTwo`, `productImageThree`, `productImageFour`, `materials`, `standards`, `finisher`, `diameterOne`, `lengthOne`, `dsOne`, `hlOne`, `diameterTwo`, `lengthTwo`, `dsTwo`, `hlTwo`, `diameterThree`, `lengthThree`, `dsThree`, `hlThree`, `diameterFour`, `lengthFour`, `dsFour`, `hlFour`, `diameterFive`, `lengthFive`, `dsFive`, `hlFive`, `diameterSix`, `lengthSix`, `dsSix`, `hlSix`, `description`) VALUES (?)";
     
     const values = [
         req.body.productName,
         req.body.category,
-        req.body.subTitle,
         req.body.productImageOne,
         req.body.productImageTwo,
         req.body.productImageThree,
@@ -79,12 +78,11 @@ export const deleteProduct = (req, res) => {
 
 export const updateProduct = (req, res) => {
     const productId = req.params.id;
-    const q = "UPDATE unicircleproduct SET `productName`=?, `category`=?,`subTitle`=?, `productImageOne`=?, `productImageTwo`=?, `productImageThree`=?, `productImageFour`=?,`materials`=?, `standards`=?, `finisher`=?, `diameterOne`=?, `lengthOne`=?, `dsOne`=?, `hlOne`=?, `diameterTwo`=?, `lengthTwo`=?, `dsTwo`=?, `hlTwo`=?, `diameterThree`=?, `lengthThree`=?, `dsThree`=?, `hlThree`=?, `diameterFour`=?, `lengthFour`=?, `dsFour`=?, `hlFour`=?, `diameterFive`=?, `lengthFive`=?, `dsFive`=?, `hlFive`=?, `diameterSix`=?, `lengthSix`=?, `dsSix`=?, `hlSix`=?,`description`=? WHERE id = ?";
+    const q = "UPDATE unicircleproduct SET `productName`=?, `category`=?, `productImageOne`=?, `productImageTwo`=?, `productImageThree`=?, `productImageFour`=?,`materials`=?, `standards`=?, `finisher`=?, `diameterOne`=?, `lengthOne`=?, `dsOne`=?, `hlOne`=?, `diameterTwo`=?, `lengthTwo`=?, `dsTwo`=?, `hlTwo`=?, `diameterThree`=?, `lengthThree`=?, `dsThree`=?, `hlThree`=?, `diameterFour`=?, `lengthFour`=?, `dsFour`=?, `hlFour`=?, `diameterFive`=?, `lengthFive`=?, `dsFive`=?, `hlFive`=?, `diameterSix`=?, `lengthSix`=?, `dsSix`=?, `hlSix`=?,`description`=? WHERE id = ?";
     
     const values = [
         req.body.productName,
         req.body.category,
-        req.body.subTitle,
         req.body.productImageOne,
         req.body.productImageTwo,
         req.body.productImageThree,

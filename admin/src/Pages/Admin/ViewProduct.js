@@ -118,8 +118,6 @@ export const ViewProduct = () => {
                             <img src={location.state.product.productImageFour?location.state.product.productImageFour:null} className='otherImgstyle'></img>
                             </div>
                             
-                            <h1 className="EDh1Text">Sub Title</h1>
-                            <span className="EDText">{location.state.product.subTitle}</span>
                             <h1 className="EDh1Text">Spec</h1>
                             <table className="">
                                 <tr className="">
